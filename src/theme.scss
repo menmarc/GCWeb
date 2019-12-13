@@ -21,32 +21,33 @@
  * GCWeb Theme
  */
 @import "defaults";
+
 @import "wet-boew-overrides";
 
-@import "archived/base";
+/*@import "archived/base";*/
 @import "banner/base";
 @import "buttons/base";
 @import "breadcrumb/base";
 @import "equalheight/base";
-@import "examples/base";
-@import "fonts/base";
+/*@import "examples/base";
+@import "fonts/base";*/
 @import "footer/base";
 @import "helper/base";
 @import "language-bar/base";
 @import "main/base";
 @import "overlay/base";
-@import "promo/base";
-@import "search/base";
+/*@import "promo/base";
+@import "search/base";*/
 @import "secondary-menu/base";
-@import "share/base";
+/*@import "share/base";*/
 @import "menu/base";
-@import "social-media-icons/base";
-@import "widgets/base";
-@import "blog/base";
-@import "pagination/base";
-@import "badges/base";
+//@import "social-media-icons/base";
+//@import "widgets/base";
+//@import "blog/base";
+//@import "pagination/base";
+/*@import "badges/base";*/
 @import "toc/base";
-@import "carousel/base";
+/*@import "carousel/base";
 @import "social-media-centre/base";
 @import "mobile-centre/base";
 @import "error/base";
@@ -54,7 +55,7 @@
 @import "components/base";
 @import "template/base";
 @import "news/base";
-@import "tbl-floatcolumn/base";
+@import "tbl-floatcolumn/base";*/
 
 /*
  * Experimental feature
@@ -203,11 +204,11 @@
 	@import "footer/print";
 	@import "menu/print";
 	@import "priorities/print"; /* Deprecated as v4.0.28 */
-	@import "promo/print";
-	@import "search/print";
-	@import "secondary-menu/print";
-	@import "share/print";
-	@import "social-media-icons/print";
+	//@import "promo/print";
+	//@import "search/print";
+	//@import "secondary-menu/print";
+	//@import "share/print";
+	//@import "social-media-icons/print";
 	@import "campaign/print";
 	@import "variant-print";
 }

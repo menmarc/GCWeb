@@ -10,6 +10,8 @@ module.exports = (grunt) ->
 		"Default task, that runs the production build"
 		[
 			"dist"
+			#"build"
+			#"copy:assets_min"
 		]
 	)
 
